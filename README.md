@@ -215,9 +215,3 @@ vaccination-programme-planner/
 - Reminder e-mails are written to the log. The `INotificationSender` interface is the place to plug in SMTP.
 - There is no connection to P1 (the national e-health platform and its e-vaccination card), which would need certificates and the official test environment.
 - The JWT keys in `appsettings.json` and `docker-compose.yml` are demo values and should be replaced outside local use.
-
-## Author
-
-**Robert Tworek**, Technical Computer Science student at Wroclaw University of Science and Technology.
-
-Released under the [MIT](LICENSE) licence.
